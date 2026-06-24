@@ -1,0 +1,10 @@
+let score = 0;
+
+function gainPoint() {
+    score++;
+    document.getElementById("score").textContent = score;
+
+    if (score === 10) {
+        alert("🏆 Einstein's Arena Champion!");
+    }
+}
